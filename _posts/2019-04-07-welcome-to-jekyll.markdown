@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Welcome to Jekyll Paper!"
-description: "This is an article description"
 categories: [Jekyll Paper]
 ---
 
