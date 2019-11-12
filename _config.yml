@@ -2,34 +2,19 @@
 #
 # This is the configuration file for your blog, please change these items after forked.
 
-title: Your title
-name: Your name
+title: Demo Site
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here.
-
+  Demo site generated from Wikipedia topics
+  
 baseurl: '' # the subpath of your site, e.g. /`blog
 url: '' # the base hostname & protocol for your site, e.g. http://example.com
 domain: 'example.com' # the domain name for your site, e.g. example.com
 
 language: en
-# Supported languages list:
-# en: English
-# de: Deutsche (German)
-# es: Español (Spanish)
-# fr: Français (French)
-# ja: 日本語 (Japanese)
-# pt: Português (Portuguese)
-# zh-cn: 简体中文 (Simplified Chinese)
-# zh-tw: 繁體中文 (Traditional Chinese)
-
-
-mathjax: true # Math support
-diagram: true # Diagrams support
 
 paginate: 25
 paginate_path: '/page:num/'
-
-permalink: /:year/:month/:day/:title
+permalink: /:title
 
 sass:
   sass_dir: _sass
